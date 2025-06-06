@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": {
     "mini-index": "bin/analyze.js",
-    "mini-index-enhanced": "bin/analyze-enhanced.js"
+    "mini-index-enhanced": "bin/analyze-enhanced.js",
+    "mindex": "bin/mindex.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
