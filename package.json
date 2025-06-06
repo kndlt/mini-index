@@ -4,10 +4,8 @@
   "description": "CLI tool for quick summarization of JavaScript/TypeScript codebases with symbol extraction",
   "main": "index.js",
   "bin": {
-    "codebase-index": "bin/mindex.js",
-    "mini-index": "bin/analyze.js",
-    "mini-index-enhanced": "bin/analyze-enhanced.js",
-    "mindex": "bin/mindex.js"
+    "mindex": "bin/cli.js",
+    "mindex-legacy": "bin/mindex.js"
   },
   "scripts": {
     "test": "node test-phase4.js",
