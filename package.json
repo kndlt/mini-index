@@ -1,6 +1,6 @@
 {
   "name": "codebase-index",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool for quick summarization of JavaScript/TypeScript codebases with symbol extraction",
   "main": "index.js",
   "bin": {
