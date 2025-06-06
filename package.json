@@ -1,23 +1,50 @@
 {
-  "name": "mini-index",
-  "version": "0.2.0",
-  "description": "A minimal indexing package with enhanced TypeScript and JSX support",
+  "name": "codebase-index",
+  "version": "1.0.1",
+  "description": "CLI tool for quick summarization of JavaScript/TypeScript codebases with symbol extraction",
   "main": "index.js",
   "bin": {
+    "codebase-index": "bin/mindex.js",
     "mini-index": "bin/analyze.js",
     "mini-index-enhanced": "bin/analyze-enhanced.js",
     "mindex": "bin/mindex.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test-phase4.js",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
-    "index",
-    "search",
-    "minimal"
+    "codebase",
+    "analysis",
+    "cli",
+    "typescript",
+    "javascript",
+    "exports",
+    "symbols",
+    "tree",
+    "summary",
+    "overview",
+    "ast",
+    "parser",
+    "jsx",
+    "react"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/codebase-index.git"
+  },
+  "homepage": "https://github.com/yourusername/codebase-index#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "index.js",
+    "README.md"
+  ],
   "dependencies": {
     "@babel/parser": "^7.27.5",
     "@typescript-eslint/parser": "^8.33.1",
