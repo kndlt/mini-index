@@ -55,6 +55,8 @@ npx codebase-index .
 - lib/
   - types.ts: User, Message, ChatState
   - utils.js: generateId, formatDate
+- models/
+  - user.py: UserManager, get_user_data, authenticate_user
 - user.js: getCurrentUser, createUser, updateUser
 ```
 
@@ -66,6 +68,7 @@ npx codebase-index .
 | JavaScript (CommonJS) | ✅ Full | module.exports, exports.* |
 | TypeScript | ✅ Enhanced | Interfaces, types, classes, functions |
 | JSX/React | ✅ Enhanced | Components, props detection |
+| Python | ✅ Enhanced | Functions, classes, variables (AST-based) |
 | JSON | ✅ Basic | File listing |
 
 ## 🎮 CLI Commands
