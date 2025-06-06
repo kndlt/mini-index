@@ -19,21 +19,21 @@ Given a JS file, I want to export:
     - layout.tsx: metadata, RootLayout
     - page.tsx: Home
 - components/
-- ChatInterface: ChatInterface
-- ErrorBoundary: ErrorBoundary
-- Footer: Footer
-- ParticleSystem: ParticleSystem
+  - ChatInterface: ChatInterface
+  - ErrorBoundary: ErrorBoundary
+  - Footer: Footer
+  - ParticleSystem: ParticleSystem
 - docs/
-- design-document.md
-- implementation-summary.md
+  - design-document.md
+  - implementation-summary.md
 - lib/
-- openai.ts: sendMessageToPixel
-- types.ts: User, Message, Conversation, SharedMemoryContext, ChatState, ParticleState
-- user.ts: generateUserId, getCurrentUser, createUser, getSharedMemory, updateSharedMemory, updateUserActivity
+  - openai.ts: sendMessageToPixel
+  - types.ts: User, Message, Conversation, SharedMemoryContext, ChatState, ParticleState
+  - user.ts: generateUserId, getCurrentUser, createUser, getSharedMemory, updateSharedMemory, updateUserActivity
 - node_modules/ (skip)
 - public/
 - scripts/
-- test-ai.mjs: none
+  - test-ai.mjs: none
 - .env.local
 - .gitignore
 - docs.json
