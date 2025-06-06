@@ -27,13 +27,13 @@
     "jsx",
     "react"
   ],
-  "author": "",
+  "author": "kndlt",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/codebase-index.git"
+    "url": "https://github.com/kndlt/mini-index.git"
   },
-  "homepage": "https://github.com/yourusername/codebase-index#readme",
+  "homepage": "https://github.com/kndlt/mini-index#readme",
   "engines": {
     "node": ">=14.0.0"
   },

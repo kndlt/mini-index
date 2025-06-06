@@ -3,7 +3,7 @@ const { extractExports, scanDirectory, formatStructure, analyzeProject } = requi
 const EnhancedAnalyzer = require('./lib/enhanced-analyzer');
 
 module.exports = {
-  version: '1.0.0',
+  version: '1.0.2',
   extractExports,
   scanDirectory,
   formatStructure,

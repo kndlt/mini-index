@@ -1,0 +1,32 @@
+# Development and testing files
+docs/
+test-samples/
+debug-*.js
+phase*.js
+test-*.js
+*-evaluation.js
+*-comparison.js
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Keep only essential documentation
+*.md
+!README.md
+!LICENSE
