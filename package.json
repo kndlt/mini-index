@@ -1,8 +1,12 @@
 {
   "name": "mini-index",
-  "version": "0.1.0",
-  "description": "A minimal indexing package",
+  "version": "0.2.0",
+  "description": "A minimal indexing package with enhanced TypeScript and JSX support",
   "main": "index.js",
+  "bin": {
+    "mini-index": "bin/analyze.js",
+    "mini-index-enhanced": "bin/analyze-enhanced.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@babel/parser": "^7.27.5",
     "@typescript-eslint/parser": "^8.33.1",
     "@typescript-eslint/typescript-estree": "^8.33.1",
     "@typescript-eslint/visitor-keys": "^8.33.1",
